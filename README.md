@@ -7,7 +7,7 @@
 |所在地|大阪府 大阪市|
 |生年月日|1996年5月13日|
 |Twitter|[@ktk0513](https://twitter.com/ktk0513)|
-|保有資格| CLF | SAA
+|保有資格| CLF SAA|
 
 
 ## 概要
