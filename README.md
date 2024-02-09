@@ -31,6 +31,9 @@ AWS | Azure | オンプレ
 
 AWS
 VPC | S3 | CloudFront | API Gateway | Lambda | ELB | EC2 | ECS | Fargate | Route53 | IAM | RDS(MySQL|PostgreSQL) | Aurora | DynamoDB | ElastiCache(Redis|Memcached) | SQS | SNS | SES |  CloudFormation | CloudWatch | EventBridge | AWS Batch | CloudTrail | AWS Config | GuardDuty | Security Hub | CloudHSM | KMS | Parameter Store | AWS Organizations | AWS Control Tower | AWS SSO(Single Sign-On)
+
+Azure
+Endpoint | Cognitive Service | Text Analytics | Azure OpenAI Service | API Manager 
 ### SaaS
 GitLab
 
