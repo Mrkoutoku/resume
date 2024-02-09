@@ -11,7 +11,8 @@
 
 
 # 概要
-- クラウドエンジニア SRE AWS全般、自動化による運用効率の改善、コスト削減、セキュリティ関連、が好きです。
+- クラウドアーキテクチャ設計、クラウドインフラ構築管理、基盤コード開発
+- AWS全般、自動化による運用効率の改善、コスト削減、セキュリティ関連、が好きです。
 - これまでAWSインフラ基盤の設計、Terraform/TerragruntでのAWSインフラ基盤の構築、総合行政ネットワーク（LGWAN）に接続可能なAWSインフラ基盤構築の設計構築、AWSのシステム運用に携わってきました。
 - 新規開発フェーズ、改修フェーズ、保守運用フェーズの各フェーズ経験があります。
 
@@ -20,20 +21,35 @@
 - 基本的に実務で関わった技術のみ記載しています。
 
 ### 言語
-Terraform | Terragrunt | TypeScript | serverless flamework
+TypeScript |
+
+### フレームワーク
+serverless flamework
 
 ### インフラ
 AWS | Azure | オンプレ
 
+AWS
+VPC | S3 | CloudFront | API Gateway | Lambda | ELB | EC2 | ECS | Fargate | Route53 | IAM | RDS(MySQL|PostgreSQL) | Aurora | DynamoDB | ElastiCache(Redis|Memcached) | SQS | SNS | SES |  CloudFormation | CloudWatch | EventBridge | AWS Batch | CloudTrail | AWS Config | GuardDuty | Security Hub | CloudHSM | KMS | Parameter Store | AWS Organizations | AWS Control Tower | AWS SSO(Single Sign-On)
 ### SaaS
 GitLab
 
 ### その他
-Linux | Apache | nginx | Docker | Notion | Backlog 
+Terraform | Terragrunt | Linux | Apache | nginx | Docker | Notion | Backlog 
 
 ## バリューを発揮しやすい業務
-- AWSインフラ基盤　設計/構築
-- コスト削減
+- クラウドアーキテクチャ設計
+- クラウドインフラ構築管理
+- 基盤コード開発
+- dev/stg/prod環境の切り分け
+- サーバーレスアーキテクチャの導入
+- メッセージングサービスの導入
+- CIサービスの導入
+- コンテナ化(Docker化)
+- インフラのコード化
+- オートスケールの設定
+- デプロイの自動化
+- データベースマイグレーションの簡略化
 - 閉域網接続
 - 自動化による運用効率の改善
 - ログベースでの不具合調査
