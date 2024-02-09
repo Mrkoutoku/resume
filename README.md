@@ -35,7 +35,7 @@ VPC | S3 | CloudFront | API Gateway | Lambda | ELB | EC2 | ECS | Fargate | Route
 GitLab
 
 ### その他
-Terraform | Terragrunt | Linux | Apache | nginx | Docker | Notion | Backlog 
+Terraform | Terragrunt | GitlabCI | Linux | Apache | nginx | Docker | Notion | Backlog 
 
 ## バリューを発揮しやすい業務
 - クラウドアーキテクチャ設計
