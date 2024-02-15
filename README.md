@@ -30,10 +30,13 @@ serverless flamework
 AWS | Azure | オンプレ
 
 AWS
-VPC | S3 | CloudFront | API Gateway | Lambda | ELB | EC2 | ECS | Fargate | Route53 | IAM | RDS(MySQL|PostgreSQL) | Aurora | DynamoDB | ElastiCache(Redis|Memcached) | SQS | SNS | SES |  CloudFormation | CloudWatch | EventBridge | AWS Batch | CloudTrail | AWS Config | GuardDuty | Security Hub | CloudHSM | KMS | Parameter Store | AWS Organizations | AWS Control Tower | AWS SSO(Single Sign-On)
+VPC | S3 | API Gateway | Lambda | ELB | EC2 | ECS | Fargate | Route53 | IAM | RDS(MySQL|PostgreSQL) | Aurora | DynamoDB | ElastiCache(Redis) | SQS | SNS | SES |  CloudFormation | CloudWatch | EventBridge | AWS Batch | CloudTrail | AWS Config | GuardDuty | Security Hub | KMS | Parameter Store | AWS Organizations | AWS Control Tower | AWS SSO(Single Sign-On)
 
 Azure
 Endpoint | Cognitive Service | Text Analytics | Azure OpenAI Service | API Manager 
+
+オンプレ
+Cisco L3スイッチ | F5 LoadBalancer | FortiGate | FortiManager 
 ### SaaS
 GitLab
 
@@ -52,11 +55,10 @@ Terraform | Terragrunt | GitlabCI | Linux | Apache | nginx | Docker | Notion | B
 - インフラのコード化
 - オートスケールの設定
 - デプロイの自動化
-- データベースマイグレーションの簡略化
 - 閉域網接続
 - 自動化による運用効率の改善
 - ログベースでの不具合調査
-- マルチテナントの運用
+  
 
 ## 本業の業務経歴
 
@@ -68,6 +70,7 @@ Terraform | Terragrunt | GitlabCI | Linux | Apache | nginx | Docker | Notion | B
 
 【発揮したバリュー】
 Terraformを使いインフラを構築し、運用しやすい環境を構築。
+
 【プロジェクト概要2】
 - 取り込んだCSVからPDFを生成するサービスのAWSインフラ基盤の設計/構築
 - 総合行政ネットワーク（LGWAN）からの閉域網接続可能なAWSインフラ基盤の設計/構築
@@ -101,10 +104,11 @@ GitlabCIで各プロジェクトのデプロイ方法を変更。
 変更　
 - Frontend | Backend
 - Gitlabでレビュー後マージされるブランチごとに処理を追加。
-- developブランチにマージされる。テストが完了する。2つが問題なく実行されたことをトリガーに、S3に自動でアップロードし、STG環境へ自動でデプロイする。　　　
-- masterブランチにマージされる。テストが完了する。2つが問題なく実行されたことをトリガーに、S3に自動でアップロードし、PROD環境へ自動でデプロイする。
+- developブランチにマージされる。テストが完了する。2つの処理が問題なく実行されたことをトリガーに、S3に自動でアップロードし、STG環境へ自動でデプロイする。　　　
+- masterブランチにマージされる。テストが完了する。2つの処理が問題なく実行されたことをトリガーに、S3に自動でアップロードし、PROD環境へ自動でデプロイする。
+  
 - Backend
-- developブランチにマージされる。テストが完了する。2つが問題なく実行されS3に自動でアップロードしたことをトリガーに、STG環境のDBへワンクリックでマイグレーションする。　　　
+- developブランチにマージされる。テストが完了する。2つの処理が問題なく実行され、S3に自動でアップロードしたことをトリガーに、STG環境のDBへワンクリックでマイグレーションする。　　　
 
 
 【発揮したバリュー】
