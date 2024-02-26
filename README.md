@@ -8,7 +8,7 @@
 |生年月日|1996年5月13日|
 |Twitter|[@ktk0513](https://twitter.com/ktk0513)|
 |保有資格| AWS Certified Cloud Practitioner　/AWS Certified Solutions Architect - Associate /AWS Certified Solutions Architect - Professional|
-|好きな事 / 興味のある事| Architect /マルチクラウド　/データ基盤　/English　/バックエンド　/データ分析　/ワイン（お酒全般）|
+|好きな事 / 興味のある事| 息子　/Architect /マルチクラウド　/データ基盤　/English　/バックエンド　/データ分析　/ワイン（お酒全般）|
 
 # 概要
 - クラウドアーキテクチャ設計、クラウドインフラ構築管理、基盤コード開発
