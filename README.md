@@ -29,13 +29,13 @@ serverless flamework (TS)
 ### インフラ
 AWS | Azure | オンプレ
 
-AWS
+### AWS
 VPC | S3 | API Gateway | Lambda | ELB | EC2 | ECS | Fargate | Route53 | IAM | RDS(MySQL|PostgreSQL) | Aurora | DynamoDB | ElastiCache(Redis) | SQS | SNS | SES |  CloudFormation | CloudWatch | EventBridge | AWS Batch | CloudTrail | AWS Config | GuardDuty | Security Hub | KMS | Parameter Store | AWS Organizations | AWS Control Tower | AWS SSO(Single Sign-On)
 
-Azure
+### Azure
 Endpoint | Cognitive Service | Text Analytics | Azure OpenAI Service | API Manager 
 
-オンプレ
+### オンプレ
 Cisco L3スイッチ | F5 LoadBalancer | FortiGate | FortiManager 
 
 ### SaaS
