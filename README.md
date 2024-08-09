@@ -7,42 +7,49 @@
 |所在地|大阪府 大阪市|
 |生年月日|1996年5月13日|
 |Twitter|[@ktk0513](https://twitter.com/ktk0513)|
-|保有資格| AWS Certified Cloud Practitioner　/AWS Certified Solutions Architect - Associate /AWS Certified Solutions Architect - Professional /AWS Certified Developer - Associate /AWS Certified Sysops Administrator - Associate|
-|好きな事 / 興味のある事| 息子　/Architect /マルチクラウド　/生成AI　/英語　/バックエンド　/データ分析　/ワイン（お酒全般）|
+|好きな事| 息子とあそぶ/Architect/マルチクラウド/生成AI/クラウドコンサルティング/英語/データ分析/ワイン（お酒全般）|
 
 # 自己紹介
-- アーキテクチャ、クラウド技術全般、自動化による運用効率の改善、コスト削減、セキュリティ関連、が好きです。 
-- これまでAWSインフラ基盤の設計、Terraform/TerragruntでのAWSインフラ基盤の構築、総合行政ネットワーク(LGWAN)に接続可能なAWSインフラ基盤構築の設計構築、AWSのシステム運用に携わってきました。 
-- 新規開発フェーズ、改修フェーズ、保守運用フェーズの各フェーズ経験があります。
-- リプレイスフェーズも是非経験したく資格勉強も兼ねてインプットはしましたが、機会がありませんでした。 今はこれから始まるデータ分析の案件がとても楽しみです。
-- 最近は子供と虫取りをすることが休日のタスクです。
+私は株式会社マストに入社し、不動産賃貸営業を経験したのち、エンジニアを目指すために知人の紹介で残業がほとんどない株式会社創生ハウジングに入社し、本職で不動産賃貸営業を行いながら、業務後の時間にエンジニアの勉強を独学で行いました。
+
+その後、未経験からエンジニアの経験を積むために株式会社フィクラ通信技術研究所へ入社し、ネットワークエンジニアとしてネットワークの運用保守を行いました。
+
+そして、もともと目指していたクラウドエンジニアの経験を積むために、現職のシフトプラス株式会社へ転職し、地方自治体向けの自社サービスのインフラ構築を担当しております。担当工程としては、要件定義以降の行程をすべて行っており、営業がヒアリングした自治体様の要望をもとに、技術選定やAWS環境でのインフラ構築を0から行い、保守運用まで対応しております。
+また開発スピードを上げるため、Terraformを学び、インフラの運用保守の作業を自動化するなど、業務効率化のために技術のキャッチアップを行いました。
+
+それだけでなく、クラウドエンジニアとしてさらにスキルアップをするため、自助努力としてAWS資格の7つ取得しており、今年中にあと３つ取得予定で、常に成長意欲高く業務に取り組むように心がけています。
 
 # スキル
 - 基本的に業務で関わった技術のみ記載しています。
-
-### 言語
-TypeScript 
-
-### フレームワーク
-serverless flamework (TS)
-※ 社内の自己紹介サイトに展開する画像にサイズ制限があるので、画像がS3にアップロードされたことをトリガーに起動するlambdaを作成しました。 lambdaの内容は画像を圧縮するというだけの簡単な内容です。 誤解が生まれると思い記載しました。
-### インフラ
-AWS | Azure | オンプレ
+  
+## インフラ
+- AWS
+- Azure
+- オンプレ
 
 ### AWS
-VPC | S3 | API Gateway | Lambda | ELB | EC2 | ECS | Fargate | Route53 | IAM | RDS(MySQL|PostgreSQL) | Aurora | DynamoDB | ElastiCache(Redis) | SQS | SNS | SES |  CloudFormation | CloudWatch | EventBridge | AWS Batch | CloudTrail | AWS Config | GuardDuty | Security Hub | KMS | Parameter Store | AWS Organizations | AWS Control Tower | AWS SSO(Single Sign-On)
+> VPC | S3 | API Gateway | Lambda | ELB | EC2 | ECS | Fargate | Route53 | IAM | RDS(MySQL|PostgreSQL) | Aurora | DynamoDB | ElastiCache(Redis) | SQS | SNS | SES |  CloudFormation | CloudWatch | EventBridge | AWS Batch | CloudTrail | AWS Config | GuardDuty | Security Hub | KMS | Parameter Store | AWS Organizations | AWS Control Tower | AWS SSO(Single Sign-On) | StepFunction 
 
 ### Azure
-Endpoint | Cognitive Service | Text Analytics | Azure OpenAI Service | API Manager 
+> Endpoint | Cognitive Service | Text Analytics | Azure OpenAI Service | API Manager 
 
 ### オンプレ
-Cisco L3スイッチ | F5 LoadBalancer | FortiGate | FortiManager 
+> Cisco L3スイッチ | F5 LoadBalancer | FortiGate | FortiManager 
 
 ### SaaS
-GitLab
+> GitLab
 
 ### その他
-Terraform | Terragrunt | GitlabCI | Linux | Apache | nginx | Docker | Notion | Backlog 
+> Terraform | Terragrunt | GitlabCI | Linux | Apache | nginx | Docker | Notion | Backlog 
+
+### 保有資格
+- AWS Certified Cloud Practitioner 2022/12
+- AWS Certified Solutions Architect - Associate 2022/12
+- AWS Certified Solutions Architect - Professional 2024/02
+- AWS Certified Developer - Associate 2024/03
+- AWS Certified Sysops Administrator - Associate 2024/05
+- AWS Certified Data Engineer - Associate 2024/06
+- AWS Certified Machine Learning - Specialty 2024/07
 
 ## バリューを発揮しやすい業務
 - クラウドアーキテクチャ設計
@@ -59,14 +66,43 @@ Terraform | Terragrunt | GitlabCI | Linux | Apache | nginx | Docker | Notion | B
 - ログベースでの不具合調査
   
 ## シフトプラス株式会社での業務経歴
+### 自社の生成AIサービスの新モデル追加の対応作業　(2024年7月31日〜2024年8月5日)
+【プロジェクト概要】
+- Azure OpenAI に新しく追加されたgpt-4o-miniモデルを自社プロダクトに追加する。
+
+【発揮したバリュー】
+- 日々最新の技術に対しアンテナを張り、自社のサービスに取り入れるべきことを検討提案する。
+
 ### 自社の生成AIサービスの新モデルへの対応作業　(2024年6月21日)
 【プロジェクト概要】
 - バージニア北部リージョンに解禁されたClaude3.5 Sonnetモデルを使用できるよう設定を追加する　
 
 【発揮したバリュー】
-最新すぎてTerraformコードでは対応できなかったので、すぐにコンソール画面から対応した。
+最新でTerraformコードでは対応できなかったので、すぐにコンソール画面から対応しました。
 
-### AWSインフラ基盤の設計/構築　(2023年〜2024年)
+### AWSインフラに追加機能を実装　(2024年5月)
+【プロジェクト概要】
+- ふるさと納税の返礼品に関する申請を管理するサービスのインフラに定期実行処理を追加
+- Eventbridgeで毎日午前8時にコンテナを起動し、申請状況をメールで知らせるインフラ機能を追加する
+  
+### AWSインフラ基盤の設計/構築　(2024年2月〜4月)
+【プロジェクト概要】
+- ふるさと納税の返礼品に関する申請を管理するサービスのAWSインフラ基盤の設計/構築
+- 総合行政ネットワーク（LGWAN）からの閉域網接続可能なAWSインフラ基盤の設計/構築
+- 総合行政ネットワーク（LGWAN）での利用に限らず、インターネットからの利用も可能にする設計/構築
+
+【発揮したバリュー】
+- Terragruntによるインフラの自動化と再現性の向上を利用し、迅速にインフラを構築する。
+
+### AWSインフラ基盤の変更　(2024年2月)
+【プロジェクト概要】
+- 定期的にCSVを取り込むAWS Batch　PDFを生成するためのAWS Batch起動上限100に設計した内容を変更する
+- AWS BatchをStepfunctionでコンテナを起動するよう変更する。
+
+【発揮したバリュー】
+- 当初の設計をベストプラクティスに近づけるよう修正した。
+
+### AWSインフラ基盤の設計/構築　(2023年12月〜2024年1月)
 【プロジェクト概要】
 - 取り込んだCSVからPDFを生成するサービスのAWSインフラ基盤の設計/構築
 - 総合行政ネットワーク（LGWAN）からの閉域網接続可能なAWSインフラ基盤の設計/構築
@@ -74,29 +110,18 @@ Terraform | Terragrunt | GitlabCI | Linux | Apache | nginx | Docker | Notion | B
 - 定期的にCSVを取り込むAWS Batch　PDFを生成するためのAWS Batch起動上限100に設計
 
 【発揮したバリュー】
-Terragruntを使いこれまでよりも迅速に、運用しやすいインフラを構築。
-
-### AWSインフラ基盤の設計/構築　(2023年〜2024年)
+- Terragruntによるインフラの自動化と再現性の向上を利用し、迅速にインフラを構築する。
+  
+### AWSインフラ基盤の設計/構築　(2023年10月〜11月)
 【プロジェクト概要】
 - 決裁を紙からWEBへ変更するためのWorkflowサービスのAWSインフラ基盤の設計/構築
 - 総合行政ネットワーク（LGWAN）からの閉域網接続可能なAWSインフラ基盤の設計/構築
 - 総合行政ネットワーク（LGWAN）での利用に限らず、インターネットからの利用も可能にする設計/構築
-
-### AWSインフラ基盤の設計/構築　(2023年〜2024年)
-【プロジェクト概要】
-- 取り込んだCSVからPDFを生成するサービスのAWSインフラ基盤の設計/構築
-- 総合行政ネットワーク（LGWAN）からの閉域網接続可能なAWSインフラ基盤の設計/構築
-- 総合行政ネットワーク（LGWAN）での利用に限らず、インターネットからの利用も可能にする設計/構築
-- 定期的にCSVを取り込むAWS Batch　PDFを生成するためのAWS Batch起動上限100に設計
 
 【発揮したバリュー】
-Terragruntを使いこれまでよりも迅速に、運用しやすいインフラを構築。
-【プロジェクト概要】
-- 決裁を紙からWEBへ変更するためのWorkflowサービスのAWSインフラ基盤の設計/構築
-- 総合行政ネットワーク（LGWAN）からの閉域網接続可能なAWSインフラ基盤の設計/構築
-- 総合行政ネットワーク（LGWAN）での利用に限らず、インターネットからの利用も可能にする設計/構築
+- Terragruntによるインフラの自動化と再現性の向上を利用し、迅速にインフラを構築する。
 
-### AWSインフラ基盤のコスト削減　(2023年〜2024年)
+### AWSインフラ基盤のコスト削減　(2023年9月)
 【プロジェクト概要】
 削減内容
 - 各プロジェクトdev環境のNatGatewayをNatInstanceに変更
@@ -107,32 +132,32 @@ Terragruntを使いこれまでよりも迅速に、運用しやすいインフ�
 【発揮したバリュー】
 各プロジェクトのランニングコストを削減し売り上げに貢献。
 
-### AWSインフラ基盤の設計/構築　(2023年〜2024年)
-【プロジェクト概要】
-- 自治体向けAIサービスのAWSインフラ基盤の設計/構築
-- 総合行政ネットワーク（LGWAN）からの閉域網接続可能なAWSインフラ基盤の設計/構築
 
-【発揮したバリュー】
-Terraformを使いインフラを構築し、運用しやすい環境を構築。
-
-【発揮したバリュー】
-Terragruntを使いこれまでよりも迅速に、運用しやすいインフラを構築。
+### AWSインフラ基盤の設計/構築　(2023年８月)
 【プロジェクト概要】
 - 部署移動の多い自治体向けに適切な人材を配置提案する人材配置システムのAWSインフラ基盤の設計/構築
 - 総合行政ネットワーク（LGWAN）からの閉域網接続可能なAWSインフラ基盤の設計/構築
 - 適切な人材配置ができるようテストするため、AWSインフラ基盤からセキュアに適性診断システムへ接続
 
 【発揮したバリュー】
-Terragruntを使いこれまでよりも迅速に、運用しやすいインフラを構築。
+Terraformを使いインフラを構築し、運用しやすい環境を構築。
 
-### 自動化による運用効率の改善　(2023年〜)
+### AWSインフラ基盤の設計/構築　(2023年6月)
+【プロジェクト概要】
+- 自治体向け生成AIサービスのAWSインフラ基盤の設計/構築
+- 総合行政ネットワーク（LGWAN）からの閉域網接続可能なAWSインフラ基盤の設計/構築
+
+【発揮したバリュー】
+Terraformを使いインフラを構築し、運用しやすい環境を構築。
+
+### 自動化による運用効率の改善　(2023年4月)
 【プロジェクト概要】
 GitlabCIで各プロジェクトのデプロイ方法を変更。
 
-現状　
+### 現状　
 - Gitlabでレビュー後マージする。テスト完了後、S3にzipをアップロードしCodePipeline/CodeBuild/CodeDeployでAWS環境へデプロイ  
 
-変更　
+### 変更　
 - Frontend | Backend
 - Gitlabでレビュー後マージされるブランチごとに処理を追加。
 - developブランチにマージされる。テストが完了する。2つの処理が問題なく実行されたことをトリガーに、S3に自動でアップロードし、STG環境へ自動でデプロイする。　　　
@@ -140,7 +165,6 @@ GitlabCIで各プロジェクトのデプロイ方法を変更。
   
 - Backend
 - developブランチにマージされる。テストが完了する。2つの処理が問題なく実行され、S3に自動でアップロードしたことをトリガーに、STG環境のDBへワンクリックでマイグレーションする。　　　
-
 
 【発揮したバリュー】
 デプロイまでの作業を簡略化し各プロジェクトに貢献。
@@ -176,6 +200,7 @@ GitlabCIで各プロジェクトのデプロイ方法を変更。
 - FortiGate一括管理するため導入。
 【発揮したバリュー】
 導入したFortiGateを運用効率を改善
+
  ### FortiGate Firewallの設計作業(2022年〜)
 【プロジェクト概要】
 
@@ -190,20 +215,21 @@ GitlabCIで各プロジェクトのデプロイ方法を変更。
 - Cisco L2スイッチを構築。
 
 ## 株式会社創生ハウジングでの業務経歴
-
 ### 不動産管理物件への申込対応 　(2021年〜2022年)
 - 株式会社マストでの経験を活かし、柔軟な審査基準を導入
 
-### 不動産賃貸営業　(2021年〜2022年)
+### 不動産賃貸営業　(2018年〜2021年)
 - 株式会社マストでの経験を活かし、賃貸営業を行う
 
 【発揮したバリュー兼感想】
-未経験からエンジニアになるのが難しく、知り合いの会社で、営業、管理業務をしながら、一年間、短い期間ですが、業務を手伝いながらエンジニアの勉強をしました。エンジニアになるための勉強時間を確保させてくれた会社に本当に感謝。
+未経験からエンジニアになるのが難しく、知り合いの会社で、営業、管理業務をしながら、一年間、短い期間ですが、業務を手伝いながらエンジニアの勉強をしました。エンジニアになるための勉強時間を確保させてくれた会社に本当に感謝しつつ業務を行う。
 ガッツリの営業職ではなく管理メインだったので休日も多く勉強する時間を確保できた。
 
-## 株式会社マストでの業務経歴　(2021年〜2022年)
+## 株式会社マストでの業務経歴　(2018年〜2021年)
 - 未経験で入社したが、上司にも恵まれ、やる気と根性で賃貸営業を行う
-
+- 2年目からは主任になり、部下3人の育成、マネジメントを担当する
+- マネジメント対応内容は売り上げ目標の進捗管理、メンタル管理、売り上げ目標を達成するための定期的ミーティング、営業前の事前準備確認など
+  
 【発揮したバリュー】
 コンスタントに売り上げ、会社の利益に貢献
 毎月の平均売上およそ130万円
